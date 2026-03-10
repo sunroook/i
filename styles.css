@@ -1,0 +1,104 @@
+/*
+* i
+*/
+#fake-layer {
+    position: absolute !important;
+    width: 100% !important; 
+    height: 100vh !important;
+    top: 0 !important; left: 0 !important;
+    background: #f9fbfd !important; 
+    z-index: 500 !important;
+    overflow: auto !important; 
+    scrollbar-width: none !important; 
+    display: flex !important;
+    justify-content: center !important; 
+    padding-top: 24px !important;
+}
+
+#fake-layer::-webkit-scrollbar {
+    display: none !important;
+}
+
+#faux-doc {
+    font-family: Arial, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important; 
+    color: #000 !important;
+    white-space: pre-wrap !important; 
+    word-break: break-word !important; 
+    text-align: left !important;
+    background: white !important;
+    width: 655px !important; 
+    min-height: 1056px !important;
+    padding: 96px !important; 
+    margin-bottom: 100px !important;
+    outline: none !important; 
+    border: 1px solid #c7c7c7 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+
+.tittle-submenu-box {
+    font-family: "Google Sans", Roboto, sans-serif !important;
+    position: absolute !important; 
+    z-index: 2147483647 !important; 
+    background: #fff !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 6px 2px rgba(60,64,67,0.15) !important; 
+    padding: 12px 16px !important;
+    display: none; 
+    width: 220px !important;
+    border: 1px solid #dadce0 !important;
+}
+
+.slider-text {
+    display: flex !important; 
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 12px !important;
+    color: #202124 !important;
+    margin-bottom: 12px !important;
+}
+
+.slider-bar {
+    -webkit-appearance: none !important; 
+    width: 100% !important;
+    height: 4px !important;
+    background: #e8eaed !important;
+    border-radius: 2px !important;
+    outline: none !important;
+}
+
+.slider-bar::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 16px !important;
+    height: 16px !important;
+    background: #1a73f8 !important;
+    border-radius: 50% !important;
+}
+
+
+.tittle {
+    position: absolute !important; 
+    left: 50% !important; 
+    bottom: 0.76em !important; 
+    width: 0.15em !important; 
+    height: 0.15em !important;
+    background-color: currentColor !important; 
+    border-radius: 50% !important; 
+
+    transform: translateX(-50%) scale(var(--tittle-size, 1)) !important;
+    transform-origin: center bottom !important;
+    pointer-events: none !important; 
+}
+
+.base-of-letter, .tittle-container {
+    display: inline !important; 
+    vertical-align: baseline !important; 
+}
+
+.tittle-container { 
+    position: relative !important; 
+    line-height: 1.5 !important;
+    white-space: nowrap !important; 
+}
